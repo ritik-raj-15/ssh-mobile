@@ -44,19 +44,19 @@ export const LoginScreen = () => {
             <FormControl.Label>Password</FormControl.Label>
             <Input
               type={showPassword ? 'text' : 'password'}
-              // InputRightElement={
-              //   showPassword ? (
-              //     <IconButton
-              //       icon={AppIcon.Eye({ size: 5, color: 'muted.400' })}
-              //       onPress={() => setShowPassword(false)}
-              //     />
-              //   ) : (
-              //     <IconButton
-              //       icon={AppIcon.EyeOff({ size: 5, color: 'muted.400' })}
-              //       onPress={() => setShowPassword(true)}
-              //     />
-              //   )
-              // }
+              InputRightElement={
+                showPassword ? (
+                  <IconButton
+                    icon={AppIcon.Eye({ size: 5, color: 'muted.400' })}
+                    onPress={() => setShowPassword(false)}
+                  />
+                ) : (
+                  <IconButton
+                    icon={AppIcon.EyeOff({ size: 5, color: 'muted.400' })}
+                    onPress={() => setShowPassword(true)}
+                  />
+                )
+              }
               // value={password}
               // onChangeText={nextValue => handleForm('password', nextValue)}
               testID="password"
