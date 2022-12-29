@@ -6,7 +6,7 @@ const BannerData = [
   {
     id: '0',
     title: 'Get your special sale up to 50%',
-    img: require('../../assets/images/banner_1.jpg'),
+    img: require('../../assets/images/handlooms.jpg'),
   },
   {
     id: '1',

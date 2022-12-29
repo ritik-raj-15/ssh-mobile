@@ -21,7 +21,7 @@ const BannerData = [
     category: "Men's Shoes",
     price: ' ₹499',
     wishlist: 0,
-    img: require('../../assets/images/sneaker_1.png'),
+    img: require('../../assets/images/towels.jpeg'),
   },
   {
     id: '1',
@@ -29,7 +29,7 @@ const BannerData = [
     category: "Women's Shoes",
     price: ' ₹999',
     wishlist: 1,
-    img: require('../../assets/images/sneaker_2.jpg'),
+    img: require('../../assets/images/mats.jpeg'),
   },
   {
     id: '2',
@@ -37,7 +37,7 @@ const BannerData = [
     category: "Men's Shoes",
     price: ' ₹599',
     wishlist: 1,
-    img: require('../../assets/images/sneaker_3.jpg'),
+    img: require('../../assets/images/pillows.jpeg'),
   },
   {
     id: '3',
@@ -45,7 +45,7 @@ const BannerData = [
     category: "Women's Shoes",
     price: ' ₹799',
     wishlist: 0,
-    img: require('../../assets/images/sneaker_1.png'),
+    img: require('../../assets/images/mats.jpeg'),
   },
   {
     id: '4',
@@ -53,7 +53,7 @@ const BannerData = [
     category: "Men's Shoes",
     price: ' ₹899',
     wishlist: 1,
-    img: require('../../assets/images/sneaker_2.jpg'),
+    img: require('../../assets/images/towels.jpeg'),
   },
 ];
 const NewArrivals = () => {
@@ -114,6 +114,7 @@ const NewArrivals = () => {
       </Box>
     );
   };
+
   return (
     <VStack>
       <HStack justifyContent="space-between" px="4" alignItems="center">

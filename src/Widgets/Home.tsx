@@ -1,6 +1,7 @@
 import { Center, Heading, HStack, Image, Pressable, ScrollView, VStack } from 'native-base';
 import React from 'react';
 import Banner from '../Components/Banner';
+import Category from '../Components/Category';
 import NewArrivals from '../Components/NewArrivals';
 import { AppIcon } from '../Utils/AppIcons';
 
@@ -33,7 +34,9 @@ const Home = () => {
         <HStack w="full" h="72">
           <NewArrivals />
         </HStack>
-        <HStack flex="1"></HStack>
+        <HStack flex="1" h="full">
+          <Category />
+        </HStack>
       </VStack>
     </ScrollView>
   );
