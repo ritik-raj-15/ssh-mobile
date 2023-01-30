@@ -99,7 +99,7 @@ const WishlistWidget = () => {
   };
 
   return (
-    <VStack>
+    <VStack flex={1}>
       <FlatList
         data={BannerData}
         showsVerticalScrollIndicator={false}
